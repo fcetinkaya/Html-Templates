@@ -1,5 +1,5 @@
-# Javascript Tutorials
-I have prepared a project for those who want to get started with Javascript and for beginners.
+# Html Responsive Templates
+I have prepared a project for those who want to get started with Html and for beginners.
 
 
 ## Table of contents
@@ -10,8 +10,7 @@ I have prepared a project for those who want to get started with Javascript and 
 * [Code Examples](#code-examples)
 
 ## General info
-I have prepared a project for those who want to get started with Javascript and for beginners. You can find the codes and sample pages of this project on github.
-In some examples it is used in firebase database.
+I have prepared a project for those who want to get started with Html and for beginners. You can find the codes and sample pages of this project on github.
 
 ## Screenshots
 ![Example screenshot](index.jpg)
@@ -21,56 +20,28 @@ In some examples it is used in firebase database.
 https://fcetinkaya-javascript-tutorial.firebaseapp.com/
 
 ## Projects
-1. Firebase E-Commere - Javascript with Materialize and Authentication
-2. Firebase Blog - Javascript with CRUD and Authentication
-3. Firebase CRUD - Javascript with SweetAlert2
-4. Firebase CRUD - Javascript with DropzoneJs
-5. Firebase CRUD - Login and Authentication
-6. Contact List - Faker.js Tutorial with Firebase
-7. Voiting App - Chart.Js Tutorial with Firebase
-8. Random Background Color Generator
-9. Random Image Generator
-10. Random Emoji Generator
-11. Star Rating System
-12. Sign Up Form Firebase
-13. Random Password Generator
-14. Basic Form Validation
+1. Gold Company - Responsive Template
+2. Communication Company - Responsive Template
+3. Html5 Canvas - ISP Shema 
+
 
 ## Code Examples
 Show examples of usage:
 ```
- document.getElementById("formLogin").addEventListener("submit", (ee) => {
-     ee.preventDefault();
-     console.log(x.value);
-     console.log(p.value);
-     firebase.auth().signInWithEmailAndPassword(x.value, p.value)
-         .then(() => {
-             swal.fire({
-                 position: 'center',
-                 icon: 'success',
-                 title: 'Welcome',
-                 text: 'Access Granted'
-             });
-             x.value = '';
-             p.value = '';
-             setTimeout(() => {
-                 loadPage();
-             }, 3000)
-         })
-         .catch((error) => {
-             swal.fire({
-                 position: 'center',
-                 icon: 'error',
-                 title: 'Error',
-                 text: 'Access Denied'
-             });
-             x.value = '';
-             p.value = '';
-         });
-
-     function loadPage() {
-         window.location.href = "./admin/admin.html";
-     }
- });
+// Rectangle Line
+	{"x1": 170 , "y1": 292 , "x2": 170 ,  "y2": 145 ,  "color": green }, // Rectangle Line Up	-	1
+	{"x1": 170 , "y1": 145 , "x2": 220 ,  "y2": 145 ,  "color": green }, // Rectangle Line Up-Right	-	2
+	{"x1": 240 , "y1": 145 , "x2": 300 ,  "y2": 145 ,  "color": green }, // Rectangle Line Up-Right	-	3
+	{"x1": 240 , "y1": 145 , "x2": 300 ,  "y2": 145 ,  "color": green }, // Rectangle Line Up-Right	-	4
+	{"x1": 360 , "y1": 145 , "x2": 460 ,  "y2": 145 ,  "color": green }, // Rectangle Line Up-Right	-	5
+	{"x1": 540 , "y1": 145 , "x2": 672 ,  "y2": 145 ,  "color": green }, // Rectangle Line Up-Right	-	6
+	{"x1": 670 , "y1": 145 , "x2": 670 ,  "y2": 292 ,  "color": green }, // Rectangle Line Up-RightDown	-	7
+	{"x1": 670 , "y1": 288 , "x2": 670 ,  "y2": 437 ,  "color": green }, // Rectangle Line Down-Right	-	8
+	{"x1": 470 , "y1": 435 , "x2": 670 ,  "y2": 435 ,  "color": green }, // Rectangle Line Down-Left	-	9
+    {"x1": 360 , "y1": 435 , "x2": 460 ,  "y2": 435 ,  "color": green }, // Rectangle Line Down-Left	-	10
+    {"x1": 240 , "y1": 435 , "x2": 300 ,  "y2": 435 ,  "color": green }, // Rectangle Line Down-Left	-	11
+	{"x1": 170 , "y1": 435 , "x2": 220 ,  "y2": 435 ,  "color": green }, // Rectangle Line Down-Left	-	12	
+	{"x1": 170 , "y1": 437 , "x2": 170 ,  "y2": 290 ,  "color": green }, // Rectangle Line Down-Left	-	13	
+	
 
 ```
