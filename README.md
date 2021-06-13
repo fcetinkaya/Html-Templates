@@ -17,7 +17,7 @@ I have prepared a project for those who want to get started with Html and for be
 
 
 ## Demo
-https://fcetinkaya-javascript-tutorial.firebaseapp.com/
+https://html-templates-responsive.firebaseapp.com/
 
 ## Projects
 1. Gold Company - Responsive Template
