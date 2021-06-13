@@ -1,0 +1,14 @@
+1. Voiting App - Chart.Js Tutorial with Firebase
+2. Random Emoji Generator
+3. Basic Form Validation
+4. Random Background Color Generator
+5. Random Image Generator
+6. Random Password Generator
+7. Contact List - Faker.js Tutorial with Firebase
+8. Login,Authentication and CRUD with Firebase
+9. E-Commere - Materialize and Authentication with Firebase
+10. CRUD - SweetAlert2 with Firebase
+11. Star Rating System
+12. Sign Up Form Firebase
+13. Firebase CRUD Project with DropzoneJs Javascript
+14. Firebase Blog - Javascript with CRUD and Authentication
